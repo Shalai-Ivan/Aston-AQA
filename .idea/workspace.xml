@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5af9b766-466d-4827-9d2b-020c1a43edbe" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -33,7 +34,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "Merging main",
     "onboarding.tips.debug.path": "/Users/ivanshalay/IdeaProjects/Aston/src/main/java/org/shalai/ivan/Main.java",
     "settings.build.tools.auto.reload": "ALL",
     "settings.editor.selected.configurable": "build.tools"
