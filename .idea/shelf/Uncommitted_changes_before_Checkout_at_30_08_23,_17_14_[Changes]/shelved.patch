@@ -1,0 +1,106 @@
+Index: src/main/java/org/shalai/ivan/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.shalai.ivan;\n\n// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,\n// then press Enter. You can now see whitespace characters in your code.\npublic class Main {\n    public static void main(String[] args) {\n        // Press Opt+Enter with your caret at the highlighted text to see how\n        // IntelliJ IDEA suggests fixing it.\n        System.out.printf(\"Hello and welcome!\");\n\n        // Press Ctrl+R or click the green arrow button in the gutter to run the code.\n        for (int i = 1; i <= 10; i++) {\n\n            // Press Ctrl+D to start debugging your code. We have set one breakpoint\n            // for you, but you can always add more by pressing Cmd+F8.\n            System.out.println(\"i = \" + i);\n        }\n    }\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/org/shalai/ivan/Main.java b/src/main/java/org/shalai/ivan/Main.java
+--- a/src/main/java/org/shalai/ivan/Main.java	
++++ b/src/main/java/org/shalai/ivan/Main.java	
+@@ -1,19 +1,85 @@
+ package org.shalai.ivan;
+ 
++import java.util.*;
++
+ // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
+ // then press Enter. You can now see whitespace characters in your code.
+ public class Main {
+     public static void main(String[] args) {
+-        // Press Opt+Enter with your caret at the highlighted text to see how
+-        // IntelliJ IDEA suggests fixing it.
+-        System.out.printf("Hello and welcome!");
+-
+-        // Press Ctrl+R or click the green arrow button in the gutter to run the code.
+-        for (int i = 1; i <= 10; i++) {
++        createArray(10, 10);
++    }
++// Task 1
++    public boolean isInSumRange (int a, int b) {
++        for (int i = 10; i <= 20; i++) {
++            if ((a + b) == i) {
++                return true;
++            }
++        }
++        return false;
++    }
++// Task 2
++    public void positiveNegative (int a) {
++        if (a >=0) {
++            System.out.println("Положительное");
++        } else {
++            System.out.println("Отрицательное");
++        }
++    }
++// Task 3
++    public boolean isNegative (int a) {
++        return a < 0;
++    }
++// Task 4
++    public void repeat (String line, int count) {
++        for (int i = 0; i < count; i++) {
++            System.out.println(line);
++        }
++    }
++// Task 5
++    public boolean isLeapYear (int year) {
++        if (year < 0) return false;
+ 
+-            // Press Ctrl+D to start debugging your code. We have set one breakpoint
+-            // for you, but you can always add more by pressing Cmd+F8.
+-            System.out.println("i = " + i);
++        if ((year % 400) == 0) {
++            return true;
++        } else if ((year % 4) == 0) {
++            return (year % 100) != 0;
++        } else {
++            return false;
+         }
+     }
++// Task 6
++    int[] array = {1, 1, 0, 1, 0, 0, 1, 0, 0, 1};
++    for (int i = 0; i < array.length; i++) {
++        if (array[i] == 0) {
++            array[i] = 1;
++        } else {
++            array[i] = 0;
++        }
++    }
++// Task 7
++    int[] array2 = new int[100];
++    for (int i = 0; i < array2.length; i++) {
++        array2[i] = i + 1;
++    }
++// Task 8
++    int[] array3 = {1, 5, 3, 2, 11, 4, 5, 2, 4, 8, 9, 1};
++    for (int i = 0 ; i < array3.length; i++) {
++        if (array3[i] < 6) {
++            array3[i] *= 2;
++        }
++    }
++// Task 9
++    int[][] array4 = new int[11][11];
++    for (int i = 0; i < array4.length; i++) {
++        array4[i][i] = 1;
++        array4[i][array4.length - i - 1] = 1;
++    }
++// Task 10
++    public int[] createArray (int len, int initialValue) {
++        int[] array = new int[len];
++        for (int i = 0; i < array.length; i++) {
++            array[i] = initialValue;
++        }
++        return array;
++    }
+ }
+\ No newline at end of file

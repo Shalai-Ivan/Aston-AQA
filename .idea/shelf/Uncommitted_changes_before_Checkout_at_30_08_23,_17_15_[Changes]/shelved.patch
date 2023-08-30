@@ -1,0 +1,174 @@
+Index: .idea/shelf/Uncommitted_changes_before_Checkout_at_28_08_23,_12_59_[Changes]/shelved.patch
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Checkout_at_28_08_23,_12_59_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Checkout_at_28_08_23,_12_59_[Changes]/shelved.patch
+new file mode 100644
+--- /dev/null	(date 1693404907545)
++++ b/.idea/shelf/Uncommitted_changes_before_Checkout_at_28_08_23,_12_59_[Changes]/shelved.patch	(date 1693404907545)
+@@ -0,0 +1,22 @@
++Index: .idea/workspace.xml
++IDEA additional info:
++Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
++<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"ALL\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"5af9b766-466d-4827-9d2b-020c1a43edbe\" name=\"Changes\" comment=\"\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/org/shalai/ivan/Main.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/org/shalai/ivan/Main.java\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\n      <map>\n        <entry key=\"$PROJECT_DIR$\" value=\"main\" />\n      </map>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"ProjectColorInfo\">{\n  &quot;associatedIndex&quot;: 5\n}</component>\n  <component name=\"ProjectId\" id=\"2UZU5zcbR1oxl2CSLZYtcja7qiO\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\n    \"git-widget-placeholder\": \"Lesson__2\",\n    \"project.structure.last.edited\": \"Modules\",\n    \"project.structure.proportion\": \"0.0\",\n    \"project.structure.side.proportion\": \"0.0\",\n    \"settings.build.tools.auto.reload\": \"ALL\",\n    \"settings.editor.selected.configurable\": \"build.tools\"\n  }\n}]]></component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"5af9b766-466d-4827-9d2b-020c1a43edbe\" name=\"Changes\" comment=\"\" />\n      <created>1693146416661</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1693146416661</updated>\n    </task>\n    <servers />\n  </component>\n</project>
++Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
++<+>UTF-8
++===================================================================
++diff --git a/.idea/workspace.xml b/.idea/workspace.xml
++--- a/.idea/workspace.xml	(revision 62f2eb1002f957a54d548d3e30529f48ca0db40c)
+++++ b/.idea/workspace.xml	(date 1693216561339)
++@@ -4,10 +4,7 @@
++     <option name="autoReloadType" value="ALL" />
++   </component>
++   <component name="ChangeListManager">
++-    <list default="true" id="5af9b766-466d-4827-9d2b-020c1a43edbe" name="Changes" comment="">
++-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++-      <change beforePath="$PROJECT_DIR$/src/main/java/org/shalai/ivan/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/shalai/ivan/Main.java" afterDir="false" />
++-    </list>
+++    <list default="true" id="5af9b766-466d-4827-9d2b-020c1a43edbe" name="Changes" comment="" />
++     <option name="SHOW_DIALOG" value="false" />
++     <option name="HIGHLIGHT_CONFLICTS" value="true" />
++     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+Index: .idea/shelf/Uncommitted_changes_before_Checkout_at_28_08_23,_13_05_[Changes]/shelved.patch
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Checkout_at_28_08_23,_13_05_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Checkout_at_28_08_23,_13_05_[Changes]/shelved.patch
+new file mode 100644
+--- /dev/null	(date 1693404907540)
++++ b/.idea/shelf/Uncommitted_changes_before_Checkout_at_28_08_23,_13_05_[Changes]/shelved.patch	(date 1693404907540)
+@@ -0,0 +1,37 @@
++Index: .idea/workspace.xml
++IDEA additional info:
++Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
++<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"ALL\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"5af9b766-466d-4827-9d2b-020c1a43edbe\" name=\"Changes\" comment=\"\" />\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"ProjectColorInfo\">{\n  &quot;associatedIndex&quot;: 5\n}</component>\n  <component name=\"ProjectId\" id=\"2UZU5zcbR1oxl2CSLZYtcja7qiO\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\n    \"git-widget-placeholder\": \"main\",\n    \"onboarding.tips.debug.path\": \"/Users/ivanshalay/IdeaProjects/Aston/src/main/java/org/shalai/ivan/Main.java\",\n    \"settings.build.tools.auto.reload\": \"ALL\",\n    \"settings.editor.selected.configurable\": \"build.tools\"\n  }\n}]]></component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"5af9b766-466d-4827-9d2b-020c1a43edbe\" name=\"Changes\" comment=\"\" />\n      <created>1693146416661</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1693146416661</updated>\n    </task>\n    <servers />\n  </component>\n  <component name=\"XDebuggerManager\">\n    <breakpoint-manager>\n      <breakpoints>\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\n          <url>file://$PROJECT_DIR$/src/main/java/org/shalai/ivan/Main.java</url>\n          <line>15</line>\n          <option name=\"timeStamp\" value=\"1\" />\n        </line-breakpoint>\n      </breakpoints>\n    </breakpoint-manager>\n  </component>\n</project>
++Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
++<+>UTF-8
++===================================================================
++diff --git a/.idea/workspace.xml b/.idea/workspace.xml
++--- a/.idea/workspace.xml	
+++++ b/.idea/workspace.xml	
++@@ -26,7 +26,7 @@
++   "keyToString": {
++     "RunOnceActivity.OpenProjectViewOnStart": "true",
++     "RunOnceActivity.ShowReadmeOnStart": "true",
++-    "git-widget-placeholder": "main",
+++    "git-widget-placeholder": "origin/Lesson__2",
++     "onboarding.tips.debug.path": "/Users/ivanshalay/IdeaProjects/Aston/src/main/java/org/shalai/ivan/Main.java",
++     "settings.build.tools.auto.reload": "ALL",
++     "settings.editor.selected.configurable": "build.tools"
++@@ -42,6 +42,17 @@
++       <updated>1693146416661</updated>
++     </task>
++     <servers />
+++  </component>
+++  <component name="Vcs.Log.Tabs.Properties">
+++    <option name="TAB_STATES">
+++      <map>
+++        <entry key="MAIN">
+++          <value>
+++            <State />
+++          </value>
+++        </entry>
+++      </map>
+++    </option>
++   </component>
++   <component name="XDebuggerManager">
++     <breakpoint-manager>
+Index: .idea/shelf/Uncommitted_changes_before_Checkout_at_28_08_23__12_59__Changes_.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Checkout_at_28_08_23__12_59__Changes_.xml b/.idea/shelf/Uncommitted_changes_before_Checkout_at_28_08_23__12_59__Changes_.xml
+new file mode 100644
+--- /dev/null	(date 1693404907542)
++++ b/.idea/shelf/Uncommitted_changes_before_Checkout_at_28_08_23__12_59__Changes_.xml	(date 1693404907542)
+@@ -0,0 +1,4 @@
++<changelist name="Uncommitted_changes_before_Checkout_at_28_08_23,_12_59_[Changes]" date="1693216789466" recycled="true" deleted="true">
++  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_28_08_23,_12_59_[Changes]/shelved.patch" />
++  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 28.08.23, 12:59 [Changes]" />
++</changelist>
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Checkout_at_28_08_23__13_05__Changes_.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Checkout_at_28_08_23__13_05__Changes_.xml b/.idea/shelf/Uncommitted_changes_before_Checkout_at_28_08_23__13_05__Changes_.xml
+new file mode 100644
+--- /dev/null	(date 1693404907530)
++++ b/.idea/shelf/Uncommitted_changes_before_Checkout_at_28_08_23__13_05__Changes_.xml	(date 1693404907530)
+@@ -0,0 +1,4 @@
++<changelist name="Uncommitted_changes_before_Checkout_at_28_08_23,_13_05_[Changes]" date="1693217100395" recycled="false" toDelete="true">
++  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_28_08_23,_13_05_[Changes]/shelved.patch" />
++  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 28.08.23, 13:05 [Changes]" />
++</changelist>
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"ALL\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"5af9b766-466d-4827-9d2b-020c1a43edbe\" name=\"Changes\" comment=\"\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/org/shalai/ivan/Main.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/org/shalai/ivan/Main.java\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\n      <map>\n        <entry key=\"$PROJECT_DIR$\" value=\"main\" />\n      </map>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"ProjectColorInfo\">{\n  &quot;associatedIndex&quot;: 5\n}</component>\n  <component name=\"ProjectId\" id=\"2UZU5zcbR1oxl2CSLZYtcja7qiO\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\n    \"git-widget-placeholder\": \"Lesson__2\",\n    \"project.structure.last.edited\": \"Modules\",\n    \"project.structure.proportion\": \"0.0\",\n    \"project.structure.side.proportion\": \"0.0\",\n    \"settings.build.tools.auto.reload\": \"ALL\",\n    \"settings.editor.selected.configurable\": \"build.tools\"\n  }\n}]]></component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"5af9b766-466d-4827-9d2b-020c1a43edbe\" name=\"Changes\" comment=\"\" />\n      <created>1693146416661</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1693146416661</updated>\n    </task>\n    <servers />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 62f2eb1002f957a54d548d3e30529f48ca0db40c)
++++ b/.idea/workspace.xml	(date 1693404907744)
+@@ -4,21 +4,13 @@
+     <option name="autoReloadType" value="ALL" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="5af9b766-466d-4827-9d2b-020c1a43edbe" name="Changes" comment="">
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/org/shalai/ivan/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/shalai/ivan/Main.java" afterDir="false" />
+-    </list>
++    <list default="true" id="5af9b766-466d-4827-9d2b-020c1a43edbe" name="Changes" comment="" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+     <option name="LAST_RESOLUTION" value="IGNORE" />
+   </component>
+   <component name="Git.Settings">
+-    <option name="RECENT_BRANCH_BY_REPOSITORY">
+-      <map>
+-        <entry key="$PROJECT_DIR$" value="main" />
+-      </map>
+-    </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+   <component name="ProjectColorInfo">{
+@@ -34,10 +26,8 @@
+   "keyToString": {
+     "RunOnceActivity.OpenProjectViewOnStart": "true",
+     "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "git-widget-placeholder": "Lesson__2",
+-    "project.structure.last.edited": "Modules",
+-    "project.structure.proportion": "0.0",
+-    "project.structure.side.proportion": "0.0",
++    "git-widget-placeholder": "main",
++    "onboarding.tips.debug.path": "/Users/ivanshalay/IdeaProjects/Aston/src/main/java/org/shalai/ivan/Main.java",
+     "settings.build.tools.auto.reload": "ALL",
+     "settings.editor.selected.configurable": "build.tools"
+   }
+@@ -53,4 +43,15 @@
+     </task>
+     <servers />
+   </component>
++  <component name="XDebuggerManager">
++    <breakpoint-manager>
++      <breakpoints>
++        <line-breakpoint enabled="true" type="java-line">
++          <url>file://$PROJECT_DIR$/src/main/java/org/shalai/ivan/Main.java</url>
++          <line>15</line>
++          <option name="timeStamp" value="1" />
++        </line-breakpoint>
++      </breakpoints>
++    </breakpoint-manager>
++  </component>
+ </project>
+\ No newline at end of file
+diff --git a/.idea/shelf/Uncommitted_changes_before_Checkout_at_28_08_23,_13_05_[Changes]1/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Checkout_at_28_08_23,_13_05_[Changes]1/shelved.patch
+new file mode 100644
