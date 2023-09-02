@@ -1,12 +1,13 @@
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
+import java.util.*;
 public class Lesson_3 {
     public static void main(String[] args) {
-        isInSumRange(10, 5);
+        System.out.println("TASK 1: " + isInSumRange(10,5));
         positiveNegative(0);
-        isNegative(1);
+        System.out.println("TASK 3: " + isNegative(1));
         repeat("Hello", 5);
-        isLeapYear(2004);
+        System.out.println("TASK 5: " + isLeapYear(2004));
         reverse();
         oneToHundred();
         lessThanSix();
@@ -16,20 +17,15 @@ public class Lesson_3 {
 
 // Task 1
     public static boolean isInSumRange (int a, int b) {
-        for (int i = 10; i <= 20; i++) {
-            if ((a + b) == i) {
-                return true;
-            }
-        }
-        return false;
+        return ((a + b) >= 10 && (a + b) <= 20);
     }
 
 // Task 2
     public static void positiveNegative (int a) {
         if (a >=0) {
-            System.out.println("Положительное");
+            System.out.println("TASK 2: Положительное");
         } else {
-            System.out.println("Отрицательное");
+            System.out.println("TASK 2: Отрицательное");
         }
     }
 
@@ -40,6 +36,7 @@ public class Lesson_3 {
 
 // Task 4
     public static void repeat (String line, int count) {
+        System.out.println("TASK 4:");
         for (int i = 0; i < count; i++) {
             System.out.println(line);
         }
@@ -68,6 +65,7 @@ public class Lesson_3 {
                 array[i] = 0;
             }
         }
+        System.out.println("TASK 6: " + Arrays.toString(array));
     }
 
 // Task 7
@@ -76,6 +74,7 @@ public class Lesson_3 {
         for (int i = 0; i < array.length; i++) {
             array[i] = i + 1;
         }
+        System.out.println("TASK 7: " + Arrays.toString(array));
     }
 
 // Task 8
@@ -86,6 +85,7 @@ public class Lesson_3 {
                 array[i] *= 2;
             }
         }
+        System.out.println("TASK 8: " + Arrays.toString(array));
     }
 
 // Task 9
@@ -95,6 +95,13 @@ public class Lesson_3 {
             array[i][i] = 1;
             array[i][array.length - i - 1] = 1;
         }
+        System.out.println("TASK 9:");
+        for (int[] column : array) {
+            for (int line : column) {
+                System.out.print(line);
+            }
+            System.out.println();
+        }
     }
 
 // Task 10
@@ -103,6 +110,7 @@ public class Lesson_3 {
         for (int i = 0; i < array.length; i++) {
             array[i] = initialValue;
         }
+        System.out.println("TASK 10: " + Arrays.toString(array));
         return array;
     }
 }
