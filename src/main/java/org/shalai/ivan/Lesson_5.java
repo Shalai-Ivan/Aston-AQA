@@ -1,10 +1,7 @@
 package org.shalai.ivan;
 
 import org.shalai.ivan.Task_1.*;
-import org.shalai.ivan.Task_2.Circle;
-import org.shalai.ivan.Task_2.Rectangle;
-import org.shalai.ivan.Task_2.Triangle;
-import org.w3c.dom.css.Rect;
+import org.shalai.ivan.Task_2.*;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
