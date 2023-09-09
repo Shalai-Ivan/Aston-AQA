@@ -1,7 +1,5 @@
 package org.shalai.ivan.Task_1;
 
-import org.shalai.ivan.Task_1.Plate;
-
 public class Cat extends Animal {
     public static int catsCount = 0;
     boolean satiety = false;

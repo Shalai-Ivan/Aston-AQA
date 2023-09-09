@@ -3,8 +3,6 @@ package org.shalai.ivan;
 import org.shalai.ivan.Task_1.*;
 import org.shalai.ivan.Task_2.*;
 
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
 public class Lesson_5 {
     public static void main(String[] args) {
         // TASK 1.1, 1.2, 1.3
