@@ -1,19 +1,32 @@
 package org.shalai.ivan;
 
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        // Press Opt+Enter with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
-
-        // Press Ctrl+R or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 10; i++) {
-
-            // Press Ctrl+D to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Cmd+F8.
-            System.out.println("i = " + i);
+        String[][] arr = {{"-1", "+1", "1", "1"}, {"1", "1", "1", "1"}, {"1", "1", "1", "1"}, {"1", "1", "1", "1"}};
+        try {
+            method(arr);
+        } catch (MyArraySizeException | MyArrayDataException s) {
+            System.out.println(s.getMessage());
         }
+    }
+
+    public static void method(String[][] array) throws MyArraySizeException, MyArrayDataException {
+        if (array.length != 4) {
+            throw new MyArraySizeException();
+        }
+        int sum = 0;
+        for (int i = 0; i < array.length; i++) {
+            if (array[i].length != 4) {
+                throw new MyArraySizeException();
+            }
+            for (int j = 0; j < array[i].length; j++) {
+                if (array[i][j].matches("^[-+]?\\d+(\\d+)?$")) {
+                    sum += Integer.parseInt(array[i][j]);
+                } else {
+                    throw new MyArrayDataException(i, j);
+                }
+            }
+        }
+        System.out.println("Sum of all numbers - " + sum);
     }
 }
