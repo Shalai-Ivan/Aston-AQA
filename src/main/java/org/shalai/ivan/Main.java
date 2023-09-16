@@ -1,19 +1,41 @@
 package org.shalai.ivan;
 
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
+import java.util.*;
+
 public class Main {
     public static void main(String[] args) {
-        // Press Opt+Enter with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+    // TASK 1
+        System.out.println("TASK 1:");
 
-        // Press Ctrl+R or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 10; i++) {
-
-            // Press Ctrl+D to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Cmd+F8.
-            System.out.println("i = " + i);
+        String[] array = {"one", "two", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "one"};
+        Set<String> set = new LinkedHashSet<String>(Arrays.asList(array));
+        System.out.print("List of unique names: ");
+        for (String str : set) {
+            System.out.print(str + " ");
         }
+
+        LinkedHashMap<String, Integer> map = new LinkedHashMap<>();
+        for (String element : array) {
+            if (!map.containsKey(element)) {
+                map.put(element, 1);
+            } else {
+                map.put(element, map.get(element) + 1);
+            }
+        }
+
+        System.out.print("\nCount of every word: ");
+        for (Map.Entry element : map.entrySet()) {
+            System.out.print(element + " ");
+        }
+
+    // TASK 2
+        System.out.println("\n\nTASK 2:");
+
+        TelephoneDirectory telDir = new TelephoneDirectory();
+        telDir.add("Ivanov", 1234567);
+        telDir.add("Petrov", 1111111);
+        telDir.add("Ivanov", 7654321);
+        System.out.println("Numbers for Ivanov surname: " + telDir.get("Ivanov"));
+        System.out.println("Numbers for Petrov surname: " + telDir.get("Petrov"));
     }
 }
