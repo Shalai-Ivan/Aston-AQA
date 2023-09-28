@@ -2,9 +2,18 @@ package org.shalai.ivan;
 
 public class Main {
     public static void main(String[] args) {
-        String[][] arr = {{"-1", "+1", "1", "1"}, {"1", "1", "1", "1"}, {"1", "1", "1", "1"}, {"1", "1", "1", "1"}};
+        String[][] arr1 = {{"-1", "+1", "1", "1"}, {"1", "1", "1", "1"}, {"1", "1", "1", "1"}, {"1", "1", "1", "1"}};
+        String[][] arr2 = {{"-1", "+1", "1", "1"}, {"A", "1", "1", "1"}, {"1", "1", "1", "1"}, {"1", "1", "1", "1"}};
+        String[][] arr3 = {{"-1", "+1", "1", "1"}, {"1", "1", "1", "1"}, {"1", "1", "1", "1"}};
         try {
-            method(arr);
+            System.out.println("Array with valid data:");
+            method(arr1);
+
+//            System.out.println("\nArray with symbols:");
+//            method(arr2);
+
+            System.out.println("\nArray with wrong size:");
+            method(arr3);
         } catch (MyArraySizeException | MyArrayDataException s) {
             System.out.println(s.getMessage());
         }
