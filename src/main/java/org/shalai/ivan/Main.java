@@ -7,7 +7,7 @@ public class Main {
     // TASK 1
         System.out.println("TASK 1:");
 
-        String[] array = {"one", "two", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "one"};
+        String[] array = {"one", "two", "two", "three", "four", "five", "one"};
         Set<String> set = new LinkedHashSet<String>(Arrays.asList(array));
         System.out.print("List of unique names: ");
         for (String str : set) {
