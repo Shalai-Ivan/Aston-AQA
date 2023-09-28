@@ -4,11 +4,11 @@ import java.util.ArrayList;
 
 public class Box <T extends Fruit> {
     private T obj;
+    private ArrayList<T> list = new ArrayList<T>();
+
     public T getObj() {
         return obj;
     }
-
-    private ArrayList<T> list = new ArrayList<T>();
     public ArrayList<T> getList() {
         return list;
     }
