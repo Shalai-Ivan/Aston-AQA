@@ -29,7 +29,7 @@ public class Main {
         }
 
     // TASK 2
-        System.out.println("\n\nTASK 2:");
+        System.out.print("\n\nTASK 2:");
 
         TelephoneDirectory telDir = new TelephoneDirectory();
         telDir.add(1234567, "Ivanov");

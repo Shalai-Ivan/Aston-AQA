@@ -10,14 +10,17 @@ public class TelephoneDirectory {
     }
 
     public void get(String surname){
+        ArrayList<Integer> list = new ArrayList<>();
         if(phonebook.containsValue(surname)) {
             for (Map.Entry<Integer, String> element : phonebook.entrySet()) {
                 if(element.getValue().equals(surname)) {
-                    System.out.println(element.getValue() + " : " + element.getKey());
+                    list.add(element.getKey());
                 }
             }
+            System.out.print("\n" + surname + " : ");
+            list.forEach((n) -> System.out.print(n + " "));
         } else {
-            System.out.println("There is no such surname as " + surname + " in the phonebook.");
+            System.out.println("\nThere is no such surname as " + surname + " in the phonebook.");
         }
     }
 }
