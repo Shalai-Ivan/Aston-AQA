@@ -3,16 +3,21 @@ package org.shalai.ivan;
 import java.util.*;
 
 public class TelephoneDirectory {
-    private HashMap<String, ArrayList<Integer>> directory = new HashMap<>();
+    private Map<Integer, String> phonebook = new HashMap<>();
 
-    public void add(String surname, Integer number) {
-        if (!directory.containsKey(surname)) {
-            directory.put(surname, new ArrayList<>(number));
-        }
-        directory.get(surname).add(number);
+    public void add(int number, String surname) {
+        phonebook.put(number, surname);
     }
 
-    public ArrayList<Integer> get(String surname) {
-        return directory.get(surname);
+    public void get(String surname){
+        if(phonebook.containsValue(surname)) {
+            for (Map.Entry<Integer, String> element : phonebook.entrySet()) {
+                if(element.getValue().equals(surname)) {
+                    System.out.println(element.getValue() + " : " + element.getKey());
+                }
+            }
+        } else {
+            System.out.println("There is no such surname as " + surname + " in the phonebook.");
+        }
     }
 }

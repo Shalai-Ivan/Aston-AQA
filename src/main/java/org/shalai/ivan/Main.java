@@ -32,10 +32,11 @@ public class Main {
         System.out.println("\n\nTASK 2:");
 
         TelephoneDirectory telDir = new TelephoneDirectory();
-        telDir.add("Ivanov", 1234567);
-        telDir.add("Petrov", 1111111);
-        telDir.add("Ivanov", 7654321);
-        System.out.println("Numbers for Ivanov surname: " + telDir.get("Ivanov"));
-        System.out.println("Numbers for Petrov surname: " + telDir.get("Petrov"));
+        telDir.add(1234567, "Ivanov");
+        telDir.add(1111111, "Petrov");
+        telDir.add(7654321, "Ivanov");
+        telDir.get("Ivanov");
+        telDir.get("Petrov");
+        telDir.get("Sobolev");
     }
 }
