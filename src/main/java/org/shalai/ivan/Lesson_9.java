@@ -69,7 +69,11 @@ public class Lesson_9 {
 // TASK 4
     static int task4_1() {
         StudentsGroup group = new StudentsGroup();
-        return (int) group.students.stream().mapToDouble(StudentsGroup.Student::getAge).average().getAsDouble();
+        return (int) group.students.stream()
+                .filter((x) -> x.getSex() == StudentsGroup.Gender.MAN)
+                .mapToDouble(StudentsGroup.Student::getAge)
+                .average()
+                .getAsDouble();
     }
 
     static List<String> task4_2() {
