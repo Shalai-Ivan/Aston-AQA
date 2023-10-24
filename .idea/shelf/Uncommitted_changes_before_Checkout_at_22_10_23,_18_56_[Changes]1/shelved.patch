@@ -1,0 +1,229 @@
+Index: pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project xmlns=\"http://maven.apache.org/POM/4.0.0\"\n         xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n         xsi:schemaLocation=\"http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd\">\n    <modelVersion>4.0.0</modelVersion>\n\n    <groupId>org.shalai.ivan</groupId>\n    <artifactId>Aston</artifactId>\n    <version>1.0-SNAPSHOT</version>\n\n    <properties>\n        <maven.compiler.source>11</maven.compiler.source>\n        <maven.compiler.target>11</maven.compiler.target>\n        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>\n    </properties>\n\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/pom.xml b/pom.xml
+--- a/pom.xml	
++++ b/pom.xml	
+@@ -14,4 +14,32 @@
+         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+     </properties>
+ 
++    <dependencies>
++        <dependency>
++            <groupId>org.seleniumhq.selenium</groupId>
++            <artifactId>selenium-java</artifactId>
++            <version>3.141.59</version>
++        </dependency>
++
++        <dependency>
++            <groupId>org.junit.jupiter</groupId>
++            <artifactId>junit-jupiter-engine</artifactId>
++            <version>5.8.2</version>
++            <scope>test</scope>
++        </dependency>
++
++        <dependency>
++            <groupId>junit</groupId>
++            <artifactId>junit</artifactId>
++            <version>4.13.2</version>
++            <scope>test</scope>
++        </dependency>
++
++        <dependency>
++            <groupId>org.apache.commons</groupId>
++            <artifactId>commons-math3</artifactId>
++            <version>3.5</version>
++        </dependency>
++    </dependencies>
++
+ </project>
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Checkout_at_22_10_23,_13_47_[Changes]/shelved.patch
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Checkout_at_22_10_23,_13_47_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Checkout_at_22_10_23,_13_47_[Changes]/shelved.patch
+new file mode 100644
+--- /dev/null	
++++ b/.idea/shelf/Uncommitted_changes_before_Checkout_at_22_10_23,_13_47_[Changes]/shelved.patch	
+@@ -0,0 +1,85 @@
++Index: .idea/workspace.xml
++IDEA additional info:
++Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
++<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"ALL\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"5af9b766-466d-4827-9d2b-020c1a43edbe\" name=\"Changes\" comment=\"\">\n      <change afterPath=\"$PROJECT_DIR$/src/test/java/org/shalai/ivan/MainTest.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/pom.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/pom.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/org/shalai/ivan/Main.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/org/shalai/ivan/Main.java\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"JUnit5 Test Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\n      <map>\n        <entry key=\"$PROJECT_DIR$\" value=\"main\" />\n      </map>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"ProjectColorInfo\">{\n  &quot;associatedIndex&quot;: 5\n}</component>\n  <component name=\"ProjectId\" id=\"2UZU5zcbR1oxl2CSLZYtcja7qiO\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\n    \"com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary\": \"JUnit5\",\n    \"com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5\": \"\",\n    \"git-widget-placeholder\": \"Lesson__12__junit__5\",\n    \"onboarding.tips.debug.path\": \"/Users/ivanshalay/IdeaProjects/Aston/src/main/java/org/shalai/ivan/Main.java\",\n    \"project.structure.last.edited\": \"Modules\",\n    \"project.structure.proportion\": \"0.0\",\n    \"project.structure.side.proportion\": \"0.0\",\n    \"settings.build.tools.auto.reload\": \"ALL\",\n    \"settings.editor.selected.configurable\": \"build.tools\"\n  }\n}]]></component>\n  <component name=\"RecentsManager\">\n    <key name=\"CreateTestDialog.Recents.Supers\">\n      <recent name=\"\" />\n    </key>\n    <key name=\"CreateTestDialog.RecentsKey\">\n      <recent name=\"org.shalai.ivan\" />\n    </key>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"5af9b766-466d-4827-9d2b-020c1a43edbe\" name=\"Changes\" comment=\"\" />\n      <created>1693146416661</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1693146416661</updated>\n    </task>\n    <servers />\n  </component>\n</project>
++Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
++<+>UTF-8
++===================================================================
++diff --git a/.idea/workspace.xml b/.idea/workspace.xml
++--- a/.idea/workspace.xml	(revision f7157e5dd34d472d1fa0abf10d68be96cc3be194)
+++++ b/.idea/workspace.xml	(date 1697971553952)
++@@ -5,10 +5,16 @@
++   </component>
++   <component name="ChangeListManager">
++     <list default="true" id="5af9b766-466d-4827-9d2b-020c1a43edbe" name="Changes" comment="">
++-      <change afterPath="$PROJECT_DIR$/src/test/java/org/shalai/ivan/MainTest.java" afterDir="false" />
+++      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+++      <change afterPath="$PROJECT_DIR$/src/test/java/org/shalai/ivan/Product.java" afterDir="false" />
+++      <change afterPath="$PROJECT_DIR$/src/test/java/org/shalai/ivan/WildberriesCartPage.java" afterDir="false" />
+++      <change afterPath="$PROJECT_DIR$/src/test/java/org/shalai/ivan/WildberriesMainPage.java" afterDir="false" />
+++      <change afterPath="$PROJECT_DIR$/src/test/java/org/shalai/ivan/WildberriesSearchPage.java" afterDir="false" />
+++      <change afterPath="$PROJECT_DIR$/src/test/java/org/shalai/ivan/WildberriesTest.java" afterDir="false" />
++       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
++       <change beforePath="$PROJECT_DIR$/src/main/java/org/shalai/ivan/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/shalai/ivan/Main.java" afterDir="false" />
+++      <change beforePath="$PROJECT_DIR$/src/test/java/org/shalai/ivan/Task_1.java" beforeDir="false" />
++     </list>
++     <option name="SHOW_DIALOG" value="false" />
++     <option name="HIGHLIGHT_CONFLICTS" value="true" />
++@@ -19,13 +25,14 @@
++     <option name="RECENT_TEMPLATES">
++       <list>
++         <option value="JUnit5 Test Class" />
+++        <option value="Class" />
++       </list>
++     </option>
++   </component>
++   <component name="Git.Settings">
++     <option name="RECENT_BRANCH_BY_REPOSITORY">
++       <map>
++-        <entry key="$PROJECT_DIR$" value="main" />
+++        <entry key="$PROJECT_DIR$" value="Lesson_13" />
++       </map>
++     </option>
++     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++@@ -39,22 +46,26 @@
++     <option name="hideEmptyMiddlePackages" value="true" />
++     <option name="showLibraryContents" value="true" />
++   </component>
++-  <component name="PropertiesComponent"><![CDATA[{
++-  "keyToString": {
++-    "RunOnceActivity.OpenProjectViewOnStart": "true",
++-    "RunOnceActivity.ShowReadmeOnStart": "true",
++-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
++-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
++-    "git-widget-placeholder": "Lesson__12__junit__5",
++-    "onboarding.tips.debug.path": "/Users/ivanshalay/IdeaProjects/Aston/src/main/java/org/shalai/ivan/Main.java",
++-    "project.structure.last.edited": "Modules",
++-    "project.structure.proportion": "0.0",
++-    "project.structure.side.proportion": "0.0",
++-    "settings.build.tools.auto.reload": "ALL",
++-    "settings.editor.selected.configurable": "build.tools"
+++  <component name="PropertiesComponent">{
+++  &quot;keyToString&quot;: {
+++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+++    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+++    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+++    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+++    &quot;git-widget-placeholder&quot;: &quot;Lesson__15&quot;,
+++    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/ivanshalay/IdeaProjects/Aston/src/main/java/org/shalai/ivan/Main.java&quot;,
+++    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+++    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+++    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+++    &quot;settings.build.tools.auto.reload&quot;: &quot;ALL&quot;,
+++    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
++   }
++-}]]></component>
+++}</component>
++   <component name="RecentsManager">
+++    <key name="MoveFile.RECENT_KEYS">
+++      <recent name="$PROJECT_DIR$/src/main/resources" />
+++    </key>
++     <key name="CreateTestDialog.Recents.Supers">
++       <recent name="" />
++     </key>
+Index: .idea/shelf/Uncommitted_changes_before_Checkout_at_22_10_23__13_47__Changes_.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Checkout_at_22_10_23__13_47__Changes_.xml b/.idea/shelf/Uncommitted_changes_before_Checkout_at_22_10_23__13_47__Changes_.xml
+new file mode 100644
+--- /dev/null	
++++ b/.idea/shelf/Uncommitted_changes_before_Checkout_at_22_10_23__13_47__Changes_.xml	
+@@ -0,0 +1,4 @@
++<changelist name="Uncommitted_changes_before_Checkout_at_22_10_23,_13_47_[Changes]" date="1697971629292" recycled="true" deleted="true">
++  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_22_10_23,_13_47_[Changes]/shelved.patch" />
++  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 22.10.23, 13:47 [Changes]" />
++</changelist>
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Checkout_at_22_10_23,_13_45_[Changes]/shelved.patch
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Checkout_at_22_10_23,_13_45_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Checkout_at_22_10_23,_13_45_[Changes]/shelved.patch
+new file mode 100644
+--- /dev/null	
++++ b/.idea/shelf/Uncommitted_changes_before_Checkout_at_22_10_23,_13_45_[Changes]/shelved.patch	
+@@ -0,0 +1,27 @@
++Index: .idea/workspace.xml
++IDEA additional info:
++Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
++<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"ALL\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"5af9b766-466d-4827-9d2b-020c1a43edbe\" name=\"Changes\" comment=\"\">\n      <change afterPath=\"$PROJECT_DIR$/.idea/uiDesigner.xml\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/test/java/org/shalai/ivan/Product.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/test/java/org/shalai/ivan/WildberriesCartPage.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/test/java/org/shalai/ivan/WildberriesMainPage.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/test/java/org/shalai/ivan/WildberriesSearchPage.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/test/java/org/shalai/ivan/WildberriesTest.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/pom.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/pom.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/org/shalai/ivan/Main.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/org/shalai/ivan/Main.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/test/java/org/shalai/ivan/Task_1.java\" beforeDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"JUnit5 Test Class\" />\n        <option value=\"Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\n      <map>\n        <entry key=\"$PROJECT_DIR$\" value=\"Lesson_13\" />\n      </map>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"ProjectColorInfo\">{\n  &quot;associatedIndex&quot;: 5\n}</component>\n  <component name=\"ProjectId\" id=\"2UZU5zcbR1oxl2CSLZYtcja7qiO\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">{\n  &quot;keyToString&quot;: {\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\n    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\n    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,\n    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,\n    &quot;git-widget-placeholder&quot;: &quot;Lesson__15&quot;,\n    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/ivanshalay/IdeaProjects/Aston/src/main/java/org/shalai/ivan/Main.java&quot;,\n    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,\n    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,\n    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,\n    &quot;settings.build.tools.auto.reload&quot;: &quot;ALL&quot;,\n    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;\n  }\n}</component>\n  <component name=\"RecentsManager\">\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/src/main/resources\" />\n    </key>\n    <key name=\"CreateTestDialog.Recents.Supers\">\n      <recent name=\"\" />\n    </key>\n    <key name=\"CreateTestDialog.RecentsKey\">\n      <recent name=\"org.shalai.ivan\" />\n    </key>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"5af9b766-466d-4827-9d2b-020c1a43edbe\" name=\"Changes\" comment=\"\" />\n      <created>1693146416661</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1693146416661</updated>\n    </task>\n    <servers />\n  </component>\n</project>
++Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
++<+>UTF-8
++===================================================================
++diff --git a/.idea/workspace.xml b/.idea/workspace.xml
++--- a/.idea/workspace.xml	(revision 0288760890ef4658b02455f4056610795c6b124b)
+++++ b/.idea/workspace.xml	(date 1697971479539)
++@@ -5,16 +5,7 @@
++   </component>
++   <component name="ChangeListManager">
++     <list default="true" id="5af9b766-466d-4827-9d2b-020c1a43edbe" name="Changes" comment="">
++-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
++-      <change afterPath="$PROJECT_DIR$/src/test/java/org/shalai/ivan/Product.java" afterDir="false" />
++-      <change afterPath="$PROJECT_DIR$/src/test/java/org/shalai/ivan/WildberriesCartPage.java" afterDir="false" />
++-      <change afterPath="$PROJECT_DIR$/src/test/java/org/shalai/ivan/WildberriesMainPage.java" afterDir="false" />
++-      <change afterPath="$PROJECT_DIR$/src/test/java/org/shalai/ivan/WildberriesSearchPage.java" afterDir="false" />
++-      <change afterPath="$PROJECT_DIR$/src/test/java/org/shalai/ivan/WildberriesTest.java" afterDir="false" />
++       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
++-      <change beforePath="$PROJECT_DIR$/src/main/java/org/shalai/ivan/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/shalai/ivan/Main.java" afterDir="false" />
++-      <change beforePath="$PROJECT_DIR$/src/test/java/org/shalai/ivan/Task_1.java" beforeDir="false" />
++     </list>
++     <option name="SHOW_DIALOG" value="false" />
++     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+Index: .idea/shelf/Uncommitted_changes_before_Checkout_at_22_10_23__13_45__Changes_.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Checkout_at_22_10_23__13_45__Changes_.xml b/.idea/shelf/Uncommitted_changes_before_Checkout_at_22_10_23__13_45__Changes_.xml
+new file mode 100644
+--- /dev/null	
++++ b/.idea/shelf/Uncommitted_changes_before_Checkout_at_22_10_23__13_45__Changes_.xml	
+@@ -0,0 +1,4 @@
++<changelist name="Uncommitted_changes_before_Checkout_at_22_10_23,_13_45_[Changes]" date="1697971573851" recycled="true" deleted="true">
++  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_22_10_23,_13_45_[Changes]/shelved.patch" />
++  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 22.10.23, 13:45 [Changes]" />
++</changelist>
+\ No newline at end of file
+Index: src/test/java/org/shalai/ivan/MainTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/org/shalai/ivan/MainTest.java b/src/test/java/org/shalai/ivan/MainTest.java
+new file mode 100644
+--- /dev/null	
++++ b/src/test/java/org/shalai/ivan/MainTest.java	
+@@ -0,0 +1,12 @@
++package org.shalai.ivan;
++
++import org.junit.jupiter.api.Test;
++
++import static org.junit.jupiter.api.Assertions.*;
++
++class MainTest {
++
++    @Test
++    void main() {
++    }
++}
+\ No newline at end of file
