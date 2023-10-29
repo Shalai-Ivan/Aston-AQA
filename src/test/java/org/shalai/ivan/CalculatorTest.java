@@ -3,6 +3,8 @@ package org.shalai.ivan;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.remote.AndroidMobileCapabilityType;
 import io.appium.java_client.remote.MobileCapabilityType;
+import io.qameta.allure.Description;
+import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -35,19 +37,26 @@ class CalculatorTest {
         }
     }
 
-    @DisplayName("PLUS")
+    @AfterEach
+    public void clear() {
+        calculator.clear();
+    }
+
     @Test
+    @DisplayName("PLUS")
+    @Description("The operation of adding two numbers")
     public void plus() {
-        calculator.clear().one().plus().nine().equal();
+        calculator.one().plus().nine().equal();
         double result = Double.parseDouble(calculator.getResultFinal());
 
         assertEquals(10, result, 0);
     }
 
-    @DisplayName("MINUS")
     @Test
+    @DisplayName("MINUS")
+    @Description("The operation of subtracting two numbers")
     public void minus() {
-        calculator.clear().five().six().minus().one().six();
+        calculator.five().six().minus().one().six();
         String formula = calculator.getResultFormula();
         double result = Double.parseDouble(calculator.getResultPreview());
 
@@ -55,10 +64,11 @@ class CalculatorTest {
         assertEquals(40, result, 0);
     }
 
-    @DisplayName("MULTIPLY")
     @Test
+    @DisplayName("MULTIPLY")
+    @Description("The operation of multiplying two numbers")
     public void multiply() {
-        calculator.clear().two().three().multiply().one().zero();
+        calculator.two().three().multiply().one().zero();
         String formula = calculator.getResultFormula();
         double result = Double.parseDouble(calculator.getResultPreview());
 
@@ -66,10 +76,11 @@ class CalculatorTest {
         assertEquals(230, result, 0);
     }
 
-    @DisplayName("DIVIDE")
     @Test
+    @DisplayName("DIVIDE")
+    @Description("The operation of dividing two numbers")
     public void divide() {
-        calculator.clear().eight().seven().divide().four();
+        calculator.eight().seven().divide().four();
         String formula = calculator.getResultFormula();
         double result = Double.parseDouble(calculator.getResultPreview());
 
